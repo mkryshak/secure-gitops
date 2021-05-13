@@ -15,7 +15,7 @@ spec:
         name: fluxcdbot
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
     push:
-      branch: deployment
+      branch: master
   interval: 30s
   sourceRef:
     kind: GitRepository
