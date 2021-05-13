@@ -5,6 +5,7 @@ flux create image update flux-system \
     --git-repo-path="./clusters/digital_ocean" \
     --checkout-branch=master \
     --push-branch=master \
+    --interval=30s \
     --author-name=fluxcdbot \
     --author-email=fluxcdbot@users.noreply.github.com \
     --commit-template="{{range .Updated.Images}}{{println .}}{{end}}" \
