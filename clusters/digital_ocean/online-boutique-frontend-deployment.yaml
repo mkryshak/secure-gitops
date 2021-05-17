@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: registry.deepfence.net/frontend:v0.2.2 # {"$imagepolicy":"flux-system:frontend"}
+        image: registry.deepfence.net/frontend:v0.2.3 # {"$imagepolicy":"flux-system:frontend"}
         imagePullPolicy: Always
         env:
         - name: ENV_PLATFORM
